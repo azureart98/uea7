@@ -1,0 +1,444 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "OXXO - Parada de la combi.",
+        "description": "Punto muy frecuentado por la comunidad estudiantil, ya que aquí se aborda el principal medio de transporte hacia la Unidad Lerma, que es la camioneta particular, con cupo limitado. Sólo permite el transporte a poco más de 15 estudiantes por vuelta. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50642466545106,
+          19.2859347378231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Centro de Lerma ",
+        "description": "<strong>isa_vr:</strong> Considero que una ruta que pueda moverse por la mayor parte de zonas de Lerma puede beneficiar a la comunidad UAM y Lerma en general. Y así estaría costeable para una empresa.<br><strong>Andrea Aguila:</strong> Como foránea considero que sería mejor que el recorrido llegara hasta el centro, pues llevar ropa a lavar, hacer las compras de comida, ir al banco, entre otras cosas, se dificulta por las distancias. Incluso hablando con personas que viven aquí, comentan que hacen falta opciones de movilidad, incluso externos al gobierno que puedan hacerla más accesible.<br><strong>eli_iluminatii:</strong> Desde mi experiencia viviendo en la Col. El Panteón, las calles son poco cómodas, y debido a los carros estacionados en medio de las calles, baches y los tiempos de lluvia, resulta muy difícil llegar a la unidad. Hay mucha probabilidad de que ocurran percances.<br><strong>bernabé_s4nt:</strong> Tendría que haber más transporte, tanto en Lerma como a comunidades cercanas para facilitar la movilidad a otras zonas.<br><strong>XóchitlCastillo:</strong> Hace mucha falta el transporte en las calles.<br><strong>Don_Toroniil:</strong> El trayecto caminando es largo y cansado, sobre todo cuando hace sol. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51127409934999,
+          19.286139171579737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Entrada Oeste - Av. Miguel Hidalgo, Paseo Tollocan y De las Partidas.",
+        "description": "<strong>MollyDC:</strong> Bajo del transporte en la primeria y camino hacia el OXXO. Según el horario y cupo en la combi la utilizo o no. Generalmente me voy caminando del OXXO a la unicad. Si bien no está lejos a veces el camino se siente inseguro, más como mujer y en especial muy temprano o tarde, por lo que sería ideal que haya más transporte por la zona.<br><strong>Panda.wgtz!:</strong> Mi experiencia de transporte en particular es agradable. Pero estaría muy bien que haya un transporte que te lleve desde la UAM hasta Toluca."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.52709913253786,
+          19.285666378572476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Zona Sur - Estación Lerma del Tren Interurbano.",
+        "description": "<strong>Alex-26:</strong> El camino es largo y pesado. Me gustaría un transporte del tren de la estación de Lerma a la escuela.<br><strong>Az:</strong> Las calles están muy pequeñas y no se puede pasar. Incluso el estacionamiento de los autos de las familias obstruyen el paso a los demás, de quienes van en bici y motocicletas.<br><strong>@many.903:</strong> El trayecto es muy largo, dado a que hago casi 40 minutos caminando. Es muy complicado llegar incluso al OXXO."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51385974884035,
+          19.278861046071516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Avenida Revolución - Zona alejada del Centro de Lerma",
+        "description": "<strong>eamz_lex:</strong> Sería perfecto un transporte que pudiera salir de la Av. de las Garzas hacia la Col. La Cruz y Guadalupe, ya que el taxi no es cotizable en el día de un estudiante. Desde aquí no hay movilidad hacia otras partes de Lerma.<br><strong>Nadis:</strong> La cercanía es un factor importante, ya que camino poco, pero en horarios de la tarde está muy oscuro y el tránsito es poco, entonces está miy solo.<br><strong>milo_jak:</strong> Estaría bien que hubiera acceso al transporte. Ya no tendría dificultad, para ya no dar tanta vuelta y caminando."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51596260070802,
+          19.294132141474368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Entrada Este - Avenida Miguel Hidalgo y Carretera México-Toluca",
+        "description": "<strong>Ari:</strong> Desde la CDMX tomo un autobús hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM.<br><strong>EFEVS:</strong> Desde la CDMX tomo un taxi colectivo hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM. No hay ninguna ruta de transporte que cubra este camino.<br><strong>Naiki:</strong> Vengo de CDMX en un taxi colectivo hasta las Plazas Outlet. Camino hasta la universidad, no hay transporte para ese tramo y además en las mañanas está muy solo el camino.<br><strong>Jaquelina16:</strong> Llego a la entrada de Lerma y para llegar a la UAM no hay ruta de transporte que cubra el camino.<br><strong>Pollichica28:</strong> Del DIF camino 1.26km. para llegar a la UAM. No hay ruta de transporte en esta ruta.<br><strong>AngelBS:</strong> El camino suele ser muy solitario e inseguro a todas horas del día, sobre todo por la tarde.<br><strong>Mary:</strong> El camino es muy solitario del OXXO a la UAM. Sería viable que hubiera un transporte más de las Plazas Outlet a la UAM o que haya más transporte de la combi del OXXO a la UAM.<br><strong>JorgeM.97:</strong> La experiencia de movilidad es complicada debido a que sólo existe transporte público en las dos calles principales que atraviesan Lerma por la zona más céntrica. A partir de la misma, toca caminar mucho para acceder a la unidad y a cualquier otro lugar. El riesgo es mayor conforme avanza la hora en puntos muy solitarios, orillando a gastar en transporte privado.<br><strong>Xóchitl Siuapili:</strong> La experiencia es complicada ya que la parada más cercana está en las Plazas Outlet, y caminar desde ahí es peligroso. Hay varios carros, casi nadie va a pie.<br><strong>jenn:</strong> Es muy complicado llegar a la unidad. También vivo en la periferia, y el transporte es escaso y caro. A veces tengo que esperar hasta 1 hora por transporte porque somos poquitos los que llegamos hasta Lerma y sólo nos quieren dejar hasta la UTVT."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50073033571245,
+          19.284366190763535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#be1eb8",
+        "marker-size": "small",
+        "marker-symbol": "triangle",
+        "title": "UAM Lerma",
+        "description": "Ubicación de la Unidad Lerma."
+      },
+      "geometry": {
+        "coordinates": [
+          -99.49770750040017,
+          19.291040150822383
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#d9d9d9",
+        "stroke-width": 2,
+        "stroke-opacity": 0.2,
+        "fill": "#be1eb8",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -99.50226954914748,
+              19.29282295642696
+            ],
+            [
+              -99.50226954914748,
+              19.29099079741316
+            ],
+            [
+              -99.4975081522818,
+              19.290972290650657
+            ],
+            [
+              -99.49759230188299,
+              19.28819470421768
+            ],
+            [
+              -99.49618626825146,
+              19.288193167924106
+            ],
+            [
+              -99.49484559353324,
+              19.28820395791373
+            ],
+            [
+              -99.49489052778625,
+              19.29099079741316
+            ],
+            [
+              -99.49489706367751,
+              19.291758823566916
+            ],
+            [
+              -99.49489052778625,
+              19.29282295642696
+            ],
+            [
+              -99.50226954914748,
+              19.29282295642696
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 3,
+        "stroke-opacity": 0.9,
+        "fill": "#eb0000",
+        "fill-opacity": 0.5,
+        "z-index": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5020037572846,
+              19.291423313433192
+            ],
+            [
+              -99.5020119675327,
+              19.291422932736957
+            ],
+            [
+              -99.50202009871148,
+              19.291421794314584
+            ],
+            [
+              -99.50202807251317,
+              19.291419909129704
+            ],
+            [
+              -99.50203581214562,
+              19.291417295337713
+            ],
+            [
+              -99.5020432430718,
+              19.291413978110885
+            ],
+            [
+              -99.50205029372778,
+              19.291409989395977
+            ],
+            [
+              -99.50205689621184,
+              19.291405367606533
+            ],
+            [
+              -99.50206298693841,
+              19.291400157252962
+            ],
+            [
+              -99.50206850725047,
+              19.291394408513884
+            ],
+            [
+              -99.50207340398437,
+              19.291388176752843
+            ],
+            [
+              -99.50207762998194,
+              19.29138152198516
+            ],
+            [
+              -99.50208114454458,
+              19.291374508299924
+            ],
+            [
+              -99.50208391382517,
+              19.291367203242807
+            ],
+            [
+              -99.50208591115417,
+              19.29135967716554
+            ],
+            [
+              -99.50208711729623,
+              19.291352002548383
+            ],
+            [
+              -99.50208752063571,
+              19.291344253302107
+            ],
+            [
+              -99.50208711728833,
+              19.291336504056197
+            ],
+            [
+              -99.50208591113868,
+              19.291328829440126
+            ],
+            [
+              -99.5020839138027,
+              19.291321303364622
+            ],
+            [
+              -99.50208114451597,
+              19.29131399830988
+            ],
+            [
+              -99.50207762994832,
+              19.29130698462754
+            ],
+            [
+              -99.50207340394698,
+              19.291300329863155
+            ],
+            [
+              -99.50206850721078,
+              19.29129409810569
+            ],
+            [
+              -99.50206298689797,
+              19.29128834937034
+            ],
+            [
+              -99.50205689617216,
+              19.291283139020496
+            ],
+            [
+              -99.5020502936904,
+              19.291278517234637
+            ],
+            [
+              -99.50204324303816,
+              19.291274528523026
+            ],
+            [
+              -99.50203581211701,
+              19.291271211299094
+            ],
+            [
+              -99.5020280724907,
+              19.291268597509475
+            ],
+            [
+              -99.502020098696,
+              19.29126671232636
+            ],
+            [
+              -99.50201196752478,
+              19.291265573905072
+            ],
+            [
+              -99.5020037572846,
+              19.291265193209203
+            ],
+            [
+              -99.5019955470444,
+              19.291265573905072
+            ],
+            [
+              -99.5019874158732,
+              19.29126671232636
+            ],
+            [
+              -99.5019794420785,
+              19.291268597509475
+            ],
+            [
+              -99.5019717024522,
+              19.291271211299094
+            ],
+            [
+              -99.50196427153104,
+              19.291274528523026
+            ],
+            [
+              -99.5019572208788,
+              19.291278517234637
+            ],
+            [
+              -99.50195061839705,
+              19.291283139020496
+            ],
+            [
+              -99.50194452767124,
+              19.29128834937034
+            ],
+            [
+              -99.50193900735843,
+              19.29129409810569
+            ],
+            [
+              -99.50193411062223,
+              19.291300329863155
+            ],
+            [
+              -99.50192988462089,
+              19.29130698462754
+            ],
+            [
+              -99.50192637005324,
+              19.29131399830988
+            ],
+            [
+              -99.50192360076652,
+              19.291321303364622
+            ],
+            [
+              -99.50192160343053,
+              19.291328829440126
+            ],
+            [
+              -99.50192039728086,
+              19.291336504056197
+            ],
+            [
+              -99.50191999393348,
+              19.291344253302107
+            ],
+            [
+              -99.50192039727297,
+              19.291352002548383
+            ],
+            [
+              -99.50192160341504,
+              19.29135967716554
+            ],
+            [
+              -99.50192360074402,
+              19.291367203242807
+            ],
+            [
+              -99.50192637002462,
+              19.291374508299924
+            ],
+            [
+              -99.50192988458726,
+              19.29138152198516
+            ],
+            [
+              -99.50193411058484,
+              19.291388176752843
+            ],
+            [
+              -99.50193900731874,
+              19.291394408513884
+            ],
+            [
+              -99.50194452763078,
+              19.291400157252962
+            ],
+            [
+              -99.50195061835734,
+              19.291405367606533
+            ],
+            [
+              -99.5019572208414,
+              19.291409989395977
+            ],
+            [
+              -99.5019642714974,
+              19.291413978110885
+            ],
+            [
+              -99.50197170242357,
+              19.291417295337713
+            ],
+            [
+              -99.50197944205601,
+              19.291419909129704
+            ],
+            [
+              -99.50198741585771,
+              19.291421794314584
+            ],
+            [
+              -99.5019955470365,
+              19.291422932736957
+            ],
+            [
+              -99.5020037572846,
+              19.291423313433192
+            ]
+          ]
+        ]
+      },
+      "id": 2
+    }
+  ]
+}
