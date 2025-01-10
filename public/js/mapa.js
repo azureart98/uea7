@@ -4,53 +4,50 @@ let geojsonFeature;
 // Crear el mapa centrado en unas coordenadas específicas
 var map = L.map('mapa').setView([19.2906, -99.4985], 14);
 
-
-// Cargar el mapa con un estilo oscuro (puedes descomentar el estilo de OpenStreetMap si lo prefieres)
-L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}', {
-  minZoom: 0,
-  maxZoom: 20,
-  attribution: false,
-  ext: 'png'
+// Añadir la capa base de CartoDB
+L.tileLayer('https://cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.carto.com/">CARTO</a>, &copy; OpenStreetMap contributors'
 }).addTo(map);
+
+// Añadir la capa de transporte público de Thunderforest
+var thunderforestTransport = L.tileLayer(
+  'https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=590f3aacedcd484499baf582c7c2d33f', {
+    attribution: 'Maps © Thunderforest, Data © OpenStreetMap contributors',
+    maxZoom: 19
+  }
+).addTo(map); // Añadir directamente al mapa o usar un control de capas si lo prefieres
 
 // Crear un ícono personalizado para los marcadores
 var customIcon = L.icon({
-  iconUrl: 'https://www.ler.uam.mx/microcbi/wp-content/uploads/2023/09/UAML.png',  // URL de la imagen del marcador
-  iconSize: [45, 45],  // Tamaño del marcador (ancho y alto en píxeles)
-  iconAnchor: [25, 50],  // Anclaje en la parte inferior central del ícono
-  popupAnchor: [0, -50]  // Posición del popup relativo al ícono
+  iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32]
 });
 
 // Función para manejar las interacciones con cada característica del GeoJSON
 function onEachFeature(feature, layer) {
-  // Si el objeto tiene propiedades y tiene un 'title', bindear un popup con la información
   if (feature.properties && feature.properties.title) {
     layer.bindPopup(
       '<h2>' + feature.properties.title + '</h2>' + 
-      '<p>' + feature.properties.description.replace(/\n/g, '<br>') + '</p>' // Asegurar saltos de línea si hay '\n'
+      '<p>' + feature.properties.description.replace(/\n/g, '<br>') + '</p>'
     );
-      // '<iframe width="auto" height="315" src="https://www.youtube.com/embed/hnRaZKOmiwo?si=oqbhqaxOhBBuPvl5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }
 
-  // Si la característica es un punto (marcador), aplicar el ícono personalizado
   if (feature.geometry.type === "Point") {
-    layer.setIcon(customIcon);  // Aplicar ícono personalizado a cada marcador de punto
+    layer.setIcon(customIcon);
   }
 
-  // Función para agrandar el marcador al pasar el mouse por encima
   layer.on('mouseover', function () {
-    // Cambiar el tamaño del ícono al pasar el mouse
     this.setIcon(L.icon({
-      iconUrl: 'https://www.ler.uam.mx/microcbi/wp-content/uploads/2023/09/UAML.png',  // Mismo ícono
-      iconSize: [55, 55],  // Nuevo tamaño al pasar el mouse (55x55 píxeles)
-      iconAnchor: [30, 55],  // Ajustar el anclaje para centrar el ícono más grande
-      popupAnchor: [0, -75]  // Ajustar la posición del popup
+      iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
+      iconSize: [55, 55],
+      iconAnchor: [30, 55],
+      popupAnchor: [0, -75]
     }));
   });
 
-  // Función para restablecer el tamaño del marcador cuando el mouse sale
   layer.on('mouseout', function () {
-    this.setIcon(customIcon);  // Restablecer al tamaño original
+    this.setIcon(customIcon);
   });
 }
 
@@ -58,21 +55,17 @@ function onEachFeature(feature, layer) {
 fetch('/geojson')
   .then(response => {
     if (!response.ok) {
-      throw new Error('Network response was not ok');  // Manejar errores de la respuesta
+      throw new Error('Network response was not ok');
     }
-    return response.json();  // Parsear la respuesta JSON
+    return response.json();
   })
   .then(data => {
-    geojsonFeature = data;  // Almacenar los datos parseados en la variable geojsonFeature
-    console.log(geojsonFeature);  // Opcional: loguear los datos para depuración
-    // Añadir los datos GeoJSON al mapa con la función onEachFeature
+    geojsonFeature = data;
+    console.log(geojsonFeature);
     L.geoJSON(geojsonFeature, {
       onEachFeature: onEachFeature
     }).addTo(map);
-  //   setTimeout(function() {
-  //     map.setView([32.851105, -117.272999], 14, {headingDegrees: 150, tiltDegrees:20.0});
-  //   }, 20000);
   })
   .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);  // Manejar errores de la operación fetch
+    console.error('There was a problem with the fetch operation:', error);
   });

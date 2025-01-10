@@ -4,6 +4,48 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Av. Solidaridad - Zona alejada del centro y la UAM",
+        "description": "Adrii: En ocasiones suele ser complicado cumplir con la puntualidad debido a la ausencia de transporte. El tiempo se pierde mucho para moverse en el municipio."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51222896575928,
+          19.292390417414936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Calle 29 de Marzo - Zona de privadas",
+        "description": "By_Beto: Yo vivo en la 1ra. Privada. Tengo que tomar el camión que pasa por la Av. Reolín Barejón para acercarme al OXXO, subiendo hacia la Av. Miguel Hidalgo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51485753059389,
+          19.28856260988436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ciudad de México",
+        "description": "Marcador de prueba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.12689208984376,
+          19.421268316049964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "OXXO - Parada de la combi.",
         "description": "Punto muy frecuentado por la comunidad estudiantil, ya que aquí se aborda el principal medio de transporte hacia la Unidad Lerma, que es la camioneta particular, con cupo limitado. Sólo permite el transporte a poco más de 15 estudiantes por vuelta. "
       },
@@ -33,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "title": "Entrada Oeste - Av. Miguel Hidalgo, Paseo Tollocan y De las Partidas.",
-        "description": "<strong>MollyDC:</strong> Bajo del transporte en la primeria y camino hacia el OXXO. Según el horario y cupo en la combi la utilizo o no. Generalmente me voy caminando del OXXO a la unicad. Si bien no está lejos a veces el camino se siente inseguro, más como mujer y en especial muy temprano o tarde, por lo que sería ideal que haya más transporte por la zona.<br><strong>Panda.wgtz!:</strong> Mi experiencia de transporte en particular es agradable. Pero estaría muy bien que haya un transporte que te lleve desde la UAM hasta Toluca."
+        "description": "<strong>MollyDC:</strong> Bajo del transporte en la primeria y camino hacia el OXXO. Según el horario y cupo en la combi la utilizo o no. Generalmente me voy caminando del OXXO a la unicad. Si bien no está lejos a veces el camino se siente inseguro, más como mujer y en especial muy temprano o tarde, por lo que sería ideal que haya más transporte por la zona.<br><strong>Panda.wgtz!:</strong> Mi experiencia de transporte en particular es agradable. Pero estaría muy bien que haya un transporte que te lleve desde la UAM hasta Toluca. <strong> <br>Héctor Alejandro Iturbe Lara:</strong> Para llegar, tomo dos camiones. Vengo desde CU en Toluca. Primero, uno que llegue a Crisa y desde ahí, otro hacia Lerma. Es una ruta bastante larga, que me toma alrededor de una hora sin tráfico. Cuando hay tráfico, puedo tardar dos horas o más. Siempre camino o voy en patineta porque la combi hace base y tarda mucho en llegar y en irse. Los camiones dejan de pasar muy temprano. <br><strong>Camp:</strong> El tiempo que toma el transporte se vuelve agotador. Me hago de 45 min. a 1 hora por el tráfico y que hacen base los camiones.<strong> Meme:</strong> Tomo un camión cerca de mi casa, pero este pasa por zonas de riesgo y cada 30-45 minutos. Cuando voy a la UAM en auto, debo dar muchas vueltas y a veces algunas rutas están cerradas. <br> <strong>Chucho:</strong> El transporte actual cumple, pero sí llega a ser muy lento a veces. Me gustaría que haya más transporte y uan guía de referencia para saber qué camiones tomar para moverme en Lerma."
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "title": "Zona Sur - Estación Lerma del Tren Interurbano.",
-        "description": "<strong>Alex-26:</strong> El camino es largo y pesado. Me gustaría un transporte del tren de la estación de Lerma a la escuela.<br><strong>Az:</strong> Las calles están muy pequeñas y no se puede pasar. Incluso el estacionamiento de los autos de las familias obstruyen el paso a los demás, de quienes van en bici y motocicletas.<br><strong>@many.903:</strong> El trayecto es muy largo, dado a que hago casi 40 minutos caminando. Es muy complicado llegar incluso al OXXO."
+        "description": "<strong>Alex-26:</strong> El camino es largo y pesado. Me gustaría un transporte del tren de la estación de Lerma a la escuela.<br><strong>Az:</strong> Las calles están muy pequeñas y no se puede pasar. Incluso el estacionamiento de los autos de las familias obstruyen el paso a los demás, de quienes van en bici y motocicletas.<br><strong>@many.903:</strong> El trayecto es muy largo, dado a que hago casi 40 minutos caminando. Es muy complicado llegar incluso al OXXO. <strong>Miriam:</strong> Me gustaría que la ruta del Tren Interurbano fuera más accesible, ya son más de 30 minutos caminando. He visto a alumnos y profesores por esta ruta frecuentemente."
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Avenida Revolución - Zona alejada del Centro de Lerma",
+        "title": "Avenida Revolución Oeste - Zona alejada del centro y de la UAM",
         "description": "<strong>eamz_lex:</strong> Sería perfecto un transporte que pudiera salir de la Av. de las Garzas hacia la Col. La Cruz y Guadalupe, ya que el taxi no es cotizable en el día de un estudiante. Desde aquí no hay movilidad hacia otras partes de Lerma.<br><strong>Nadis:</strong> La cercanía es un factor importante, ya que camino poco, pero en horarios de la tarde está muy oscuro y el tránsito es poco, entonces está miy solo.<br><strong>milo_jak:</strong> Estaría bien que hubiera acceso al transporte. Ya no tendría dificultad, para ya no dar tanta vuelta y caminando."
       },
       "geometry": {
@@ -75,7 +117,7 @@
       "type": "Feature",
       "properties": {
         "title": "Entrada Este - Avenida Miguel Hidalgo y Carretera México-Toluca",
-        "description": "<strong>Ari:</strong> Desde la CDMX tomo un autobús hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM.<br><strong>EFEVS:</strong> Desde la CDMX tomo un taxi colectivo hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM. No hay ninguna ruta de transporte que cubra este camino.<br><strong>Naiki:</strong> Vengo de CDMX en un taxi colectivo hasta las Plazas Outlet. Camino hasta la universidad, no hay transporte para ese tramo y además en las mañanas está muy solo el camino.<br><strong>Jaquelina16:</strong> Llego a la entrada de Lerma y para llegar a la UAM no hay ruta de transporte que cubra el camino.<br><strong>Pollichica28:</strong> Del DIF camino 1.26km. para llegar a la UAM. No hay ruta de transporte en esta ruta.<br><strong>AngelBS:</strong> El camino suele ser muy solitario e inseguro a todas horas del día, sobre todo por la tarde.<br><strong>Mary:</strong> El camino es muy solitario del OXXO a la UAM. Sería viable que hubiera un transporte más de las Plazas Outlet a la UAM o que haya más transporte de la combi del OXXO a la UAM.<br><strong>JorgeM.97:</strong> La experiencia de movilidad es complicada debido a que sólo existe transporte público en las dos calles principales que atraviesan Lerma por la zona más céntrica. A partir de la misma, toca caminar mucho para acceder a la unidad y a cualquier otro lugar. El riesgo es mayor conforme avanza la hora en puntos muy solitarios, orillando a gastar en transporte privado.<br><strong>Xóchitl Siuapili:</strong> La experiencia es complicada ya que la parada más cercana está en las Plazas Outlet, y caminar desde ahí es peligroso. Hay varios carros, casi nadie va a pie.<br><strong>jenn:</strong> Es muy complicado llegar a la unidad. También vivo en la periferia, y el transporte es escaso y caro. A veces tengo que esperar hasta 1 hora por transporte porque somos poquitos los que llegamos hasta Lerma y sólo nos quieren dejar hasta la UTVT."
+        "description": "<strong>Ari:</strong> Desde la CDMX tomo un autobús hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM.<br><strong>EFEVS:</strong> Desde la CDMX tomo un taxi colectivo hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM. No hay ninguna ruta de transporte que cubra este camino.<br><strong>Naiki:</strong> Vengo de CDMX en un taxi colectivo hasta las Plazas Outlet. Camino hasta la universidad, no hay transporte para ese tramo y además en las mañanas está muy solo el camino.<br><strong>Jaquelina16:</strong> Llego a la entrada de Lerma y para llegar a la UAM no hay ruta de transporte que cubra el camino.<br><strong>Pollichica28:</strong> Del DIF camino 1.26km. para llegar a la UAM. No hay ruta de transporte en esta ruta.<br><strong>AngelBS:</strong> El camino suele ser muy solitario e inseguro a todas horas del día, sobre todo por la tarde.<br><strong>Mary:</strong> El camino es muy solitario del OXXO a la UAM. Sería viable que hubiera un transporte más de las Plazas Outlet a la UAM o que haya más transporte de la combi del OXXO a la UAM.<br><strong>JorgeM.97:</strong> La experiencia de movilidad es complicada debido a que sólo existe transporte público en las dos calles principales que atraviesan Lerma por la zona más céntrica. A partir de la misma, toca caminar mucho para acceder a la unidad y a cualquier otro lugar. El riesgo es mayor conforme avanza la hora en puntos muy solitarios, orillando a gastar en transporte privado.<br><strong>Xóchitl Siuapili:</strong> La experiencia es complicada ya que la parada más cercana está en las Plazas Outlet, y caminar desde ahí es peligroso. Hay varios carros, casi nadie va a pie.<br><strong>jenn:</strong> Es muy complicado llegar a la unidad. También vivo en la periferia, y el transporte es escaso y caro. A veces tengo que esperar hasta 1 hora por transporte porque somos poquitos los que llegamos hasta Lerma y sólo nos quieren dejar hasta la UTVT. <br> <strong>León de Dios:</strong> La trayectoria en general se hace muy pesada por la falta de transporte. En algunas ocasiones utilizo transporte particular para poder llegar a la UAM y al lugar que rento. Un transporte que se mueva en Lerma convendría mucho. <br><strong>maralvna:</strong> El camino es complicado porque se camina la mayor parte del tramo. Con un transporte habría seguridad y llegaríamos a tiempo a la UAM."
       },
       "geometry": {
         "type": "Point",
