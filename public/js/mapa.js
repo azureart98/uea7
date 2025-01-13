@@ -37,6 +37,33 @@ function onEachFeature(feature, layer) {
     layer.setIcon(customIcon);
   }
 
+  
+  if (feature.geometry.type === "LineString") {
+    const color = feature.properties.color || 'purple';
+
+    // Estilo inicial
+    layer.setStyle({
+        color: color,
+        weight: 4,
+        opacity: 0.8, // Transparencia inicial
+    });
+
+    // Animación de brillo
+    let growing = true;
+    setInterval(() => {
+        let currentOpacity = layer.options.opacity;
+        if (growing) {
+            currentOpacity += 0.1; // Incrementa opacidad
+            if (currentOpacity >= 1.2) growing = false; // Si alcanza el máximo, empieza a decrecer
+        } else {
+            currentOpacity -= 0.1; // Decrementa opacidad
+            if (currentOpacity <= 0.4) growing = true; // Si alcanza el mínimo, empieza a crecer
+        }
+        layer.setStyle({ opacity: currentOpacity }); // Aplica la nueva opacidad
+    }, 100); // Intervalo en milisegundos
+}
+
+
   layer.on('mouseover', function () {
     this.setIcon(L.icon({
       iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',

@@ -1,0 +1,66 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: purple; /* Morado */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Secciones generales */
+section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Ajuste de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Impresiones y conclusiones */
+.imagenes-proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.imagenes-proyecto img {
+    flex: 1 1 calc(33.333% - 2rem); /* Ajuste para 3 imágenes por fila */
+    max-width: calc(33.333% - 2rem);
+}
+
+@media (max-width: 768px) {
+    .imagenes-proyecto img {
+        flex: 1 1 calc(50% - 1rem); /* Dos imágenes por fila en pantallas pequeñas */
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .imagenes-proyecto img {
+        flex: 1 1 100%; /* Una imagen por fila en pantallas muy pequeñas */
+        max-width: 100%;
+    }
+}

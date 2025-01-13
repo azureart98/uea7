@@ -31,6 +31,11 @@ app.get('/mapa', (req, res) => {
     res.sendFile(path.join(__dirname, 'mapa.html'));
 });
 
+//Ruta de proyecto (reflexiones, proceso, statement, evidencias)
+app.get('/proyecto', (req, res) => {
+    res.sendFile(path.join(__dirname, 'proyecto.html'));
+});
+
 /////////////////////////////////////// PROCESOS ///////////////////////////////////////////
 
 // Endpoint para obtener el archivo GeoJSON

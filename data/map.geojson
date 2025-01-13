@@ -4,8 +4,359 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Ruta Pantera 2",
+        "description": "Esta ruta abarca las cercanías de la UAM Lerma y conecta con la zona residencial del municipio. A diferencia de la Ruta Pantera 1, que hace un recorrido más abierto, la Ruta Pantera 2 recorre la Prolongación Zaragoza Sur y la Av. Independencia, apoyándose mutuamente para el traslado de alumnos en zonas muy alejadas y del centro del municipio. Regresa hacia la Av. De las Partidas y a la Unidad Lerma desde la calle Emiliano Zapata.\n\nRuta ideal para combis al atravesar calles estrechas. \n\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50277954339983,
+          19.29132461491814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ruta Pantera 1",
+        "description": "Esta ruta abarca las cercanías de la UAM Lerma y conecta con todo el municipio desde la entrada este y se reincorpora hacia la unidad, pasando por el OXXO sobre la Av. Miguel Hidalgo y atravesando la Prolongación Vicente Guerrero.\n\nRuta útil para estudiantes que viven en Lerma pero no cerca de los Portales. También puede recoger alumnos sobre la Av. Reolín Barejón que atraviesan la plaza caminando. Ideal para un transporte mediano, como combis."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50254350900651,
+          19.294671363334192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Av. de las Partidas - Cerrillo",
+        "description": "<strong>Vilchis Esperanza (Hope):</strong> Soy una chica foránea. Me hago de una hora a hora y media para llegar a la escuela. Podría hacerme media hora de trayecto si el transporte público fuera más efectivo desde Cerrillo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.52853679656984,
+          19.293767596111906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Av. Manuel Villada - Calle Pino Suárez",
+        "description": "<strong>@LuuBoing:</strong> Mi trayecto en realidad es corto, pero es muy agradable, salvo cuando llueve por la terracería y los desbordamientos de agua. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50761556625368,
+          19.291114491516698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Calle Francisco Negrete - Zona de privadas",
+        "description": "<strong>sofía:</strong> Lo complicado de vivir aquí es que no hay comercios ni transportes, además del olor insoportable. Mi trayecto a la UAM es peligroso, solitario y oscuro. Camino demasiado."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51359152793886,
+          19.28868412895935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "color": "yellow"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.51375500300675,
+            19.2784981333253
+          ],
+          [
+            -99.51425588689646,
+            19.280703992103128
+          ],
+          [
+            -99.51433522158224,
+            19.28136475709765
+          ],
+          [
+            -99.51427688724303,
+            19.281426426831118
+          ],
+          [
+            -99.51439355592147,
+            19.28154756374157
+          ],
+          [
+            -99.51405824038488,
+            19.283340706197833
+          ],
+          [
+            -99.51338622879709,
+            19.28320195088527
+          ],
+          [
+            -99.51313399419996,
+            19.283077638101233
+          ],
+          [
+            -99.51208198308494,
+            19.282910251667147
+          ],
+          [
+            -99.51181687766427,
+            19.284384169285445
+          ],
+          [
+            -99.5117445430836,
+            19.28506912989863
+          ],
+          [
+            -99.5107766679592,
+            19.284974874235644
+          ],
+          [
+            -99.50725894569939,
+            19.28444775888252
+          ],
+          [
+            -99.50132843243436,
+            19.284499832898845
+          ],
+          [
+            -99.50090727098195,
+            19.284438674390813
+          ],
+          [
+            -99.50086677468816,
+            19.2843087124878
+          ],
+          [
+            -99.50067239247957,
+            19.284278133201
+          ],
+          [
+            -99.50059949915102,
+            19.28442338476063
+          ],
+          [
+            -99.50076148432528,
+            19.284538056954062
+          ],
+          [
+            -99.50115834800151,
+            19.284560991383103
+          ],
+          [
+            -99.50152281464344,
+            19.284622149844566
+          ],
+          [
+            -99.50335323989576,
+            19.28525666341511
+          ],
+          [
+            -99.50457622796009,
+            19.285570098957322
+          ],
+          [
+            -99.50710665038054,
+            19.28594969390906
+          ],
+          [
+            -99.50854021917152,
+            19.286148457139404
+          ],
+          [
+            -99.51022831733647,
+            19.28641109947246
+          ],
+          [
+            -99.51184816907748,
+            19.286441678361
+          ],
+          [
+            -99.51281637019643,
+            19.286461058116686
+          ],
+          [
+            -99.51458271042186,
+            19.28668359516203
+          ],
+          [
+            -99.51575354311761,
+            19.286777846214775
+          ],
+          [
+            -99.51756134964961,
+            19.286855000845776
+          ],
+          [
+            -99.51886333953496,
+            19.286855000845776
+          ],
+          [
+            -99.51940442624023,
+            19.286668801045096
+          ],
+          [
+            -99.52007514830221,
+            19.28617404054495
+          ],
+          [
+            -99.52047517025203,
+            19.286020529640183
+          ],
+          [
+            -99.5226338807537,
+            19.286126929973136
+          ],
+          [
+            -99.5234251569359,
+            19.28608754329916
+          ],
+          [
+            -99.52502023545262,
+            19.285608741138816
+          ],
+          [
+            -99.52598820302742,
+            19.285604367905506
+          ],
+          [
+            -99.52744800986798,
+            19.285923569509407
+          ],
+          [
+            -99.52847058031584,
+            19.2861265402735
+          ],
+          [
+            -99.52889682667778,
+            19.286148630796546
+          ],
+          [
+            -99.52892773202052,
+            19.283509741592127
+          ],
+          [
+            -99.52889196728681,
+            19.28314262085901
+          ],
+          [
+            -99.52896559907059,
+            19.281085753760735
+          ],
+          [
+            -99.52904159912988,
+            19.280841003073988
+          ],
+          [
+            -99.52903712834897,
+            19.279625672895364
+          ],
+          [
+            -99.52676876989,
+            19.27983650187315
+          ],
+          [
+            -99.52496159842175,
+            19.27994214980359
+          ],
+          [
+            -99.5246153828936,
+            19.279896761105007
+          ],
+          [
+            -99.5225765813505,
+            19.27929076136948
+          ],
+          [
+            -99.51952571737684,
+            19.278438484572163
+          ],
+          [
+            -99.51855608953089,
+            19.278274479778915
+          ],
+          [
+            -99.51787826365101,
+            19.27823423959819
+          ],
+          [
+            -99.51598913465055,
+            19.27830471103107
+          ],
+          [
+            -99.51372550389942,
+            19.2783891488464
+          ],
+          [
+            -99.51375756089298,
+            19.27850110864378
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Nueva Ameyalco - Zona norte de Lerma",
+        "description": "<strong>Maitane Delgado:</strong> Rento una habitación debido a que soy foránea. Mi ruta es hacia la Av. de las Garzas hasta que termina el pavimento. La mayor parte del camino es terracería. Es muy poco el tránsito de autos y aún menos de personas. En el camino hay casas abandonadas con los vidrios rotos y muy grandes. Cerca del camino se encuentra el río del lado derecho en un extremo. Hay un puente y una cerca cuidada por personas que están armadas. Hay mucha fauna feral que es agresiva. En donde rento no hay bardas, se entra directamente al domicilio. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50396776199342,
+          19.29781805452568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Av. Miguel Hidalgo y Reolín Barejón - Oeste - Entrada a Lerma",
+        "description": "<strong>barb_27:</strong> En general mi trayecto es cansado, porque hay subidas y banquetas reducidas. Es algo agobiante. La situación podría mejorar con un transporte con una ruta amplia y pase por todo el municipio de forma eficiente."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51752901077272,
+          19.28678031975536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "La Toscana - Av. Independencia - Cercanías de la UAM Lerma",
+        "description": "<strong>BlancaNG:</strong> Los transportes para llegar a la universidad, un espacio relativamente nuevo, son escasos. Serían necesarios para los estudiantes que salen de la unidad muy tarde por diversas circunstancias, pensando en su seguridad. <br> <strong> Abi:</strong> Lo complicado de rentar en esta zona es la poca accesibilidad a comercios, y estar en la calle a altas horas de la noche es muy peligroso por lo solitaria y oscura que es la zona. Da mucho miedo. Ir hacia áreas céntricas de Lerma es muy lento, tarda mucho tiempo, mismo que podría aprovechar para mis actividades y estudiar. <br> <strong>Cassandra Cortés:</strong> Ser estudiante foránea se vuelve complicado cuando tienes que viajar de 1 a 4 horas para llegar a Lerma y a la universidad. El traslado es cansado y muchas veces el transporte público es ineficaz, sobre todo en la zona en la que está ubicada la UAM Lerma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50321674346924,
+          19.289907764582253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Av. Solidaridad - Zona alejada del centro y la UAM",
-        "description": "Adrii: En ocasiones suele ser complicado cumplir con la puntualidad debido a la ausencia de transporte. El tiempo se pierde mucho para moverse en el municipio."
+        "description": "<strong>Adrii:</strong> En ocasiones suele ser complicado cumplir con la puntualidad debido a la ausencia de transporte. El tiempo se pierde mucho para moverse en el municipio."
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +370,7 @@
       "type": "Feature",
       "properties": {
         "title": "Calle 29 de Marzo - Zona de privadas",
-        "description": "By_Beto: Yo vivo en la 1ra. Privada. Tengo que tomar el camión que pasa por la Av. Reolín Barejón para acercarme al OXXO, subiendo hacia la Av. Miguel Hidalgo."
+        "description": "<strong>By_Beto:</strong> Yo vivo en la 1ra. Privada. Tengo que tomar el camión que pasa por la Av. Reolín Barejón para acercarme al OXXO, subiendo hacia la Av. Miguel Hidalgo."
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +398,7 @@
       "type": "Feature",
       "properties": {
         "title": "OXXO - Parada de la combi.",
-        "description": "Punto muy frecuentado por la comunidad estudiantil, ya que aquí se aborda el principal medio de transporte hacia la Unidad Lerma, que es la camioneta particular, con cupo limitado. Sólo permite el transporte a poco más de 15 estudiantes por vuelta. "
+        "description": "<strong>Punto muy frecuentado por la comunidad estudiantil, ya que aquí se aborda el principal medio de transporte hacia la Unidad Lerma, que es la camioneta particular, con cupo limitado. Sólo permite el transporte a poco más de 15 estudiantes por vuelta. </strong> <br> <br> <strong> JonathanVillavicencio:</strong> Mis clases terminan a las 5 de la tarde. No suelo alcanzar la combi y el camino a pie es solitario y oscuro. "
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +412,7 @@
       "type": "Feature",
       "properties": {
         "title": "Centro de Lerma ",
-        "description": "<strong>isa_vr:</strong> Considero que una ruta que pueda moverse por la mayor parte de zonas de Lerma puede beneficiar a la comunidad UAM y Lerma en general. Y así estaría costeable para una empresa.<br><strong>Andrea Aguila:</strong> Como foránea considero que sería mejor que el recorrido llegara hasta el centro, pues llevar ropa a lavar, hacer las compras de comida, ir al banco, entre otras cosas, se dificulta por las distancias. Incluso hablando con personas que viven aquí, comentan que hacen falta opciones de movilidad, incluso externos al gobierno que puedan hacerla más accesible.<br><strong>eli_iluminatii:</strong> Desde mi experiencia viviendo en la Col. El Panteón, las calles son poco cómodas, y debido a los carros estacionados en medio de las calles, baches y los tiempos de lluvia, resulta muy difícil llegar a la unidad. Hay mucha probabilidad de que ocurran percances.<br><strong>bernabé_s4nt:</strong> Tendría que haber más transporte, tanto en Lerma como a comunidades cercanas para facilitar la movilidad a otras zonas.<br><strong>XóchitlCastillo:</strong> Hace mucha falta el transporte en las calles.<br><strong>Don_Toroniil:</strong> El trayecto caminando es largo y cansado, sobre todo cuando hace sol. "
+        "description": "<strong>isa_vr:</strong> Considero que una ruta que pueda moverse por la mayor parte de zonas de Lerma puede beneficiar a la comunidad UAM y Lerma en general. Y así estaría costeable para una empresa.<br><strong>Andrea Aguilar:</strong> Como foránea considero que sería mejor que el recorrido llegara hasta el centro, pues llevar ropa a lavar, hacer las compras de comida, ir al banco, entre otras cosas, se dificulta por las distancias. Incluso hablando con personas que viven aquí, comentan que hacen falta opciones de movilidad, incluso externos al gobierno que puedan hacerla más accesible.<br><strong>eli_iluminatii:</strong> Desde mi experiencia viviendo en la Col. El Panteón, las calles son poco cómodas, y debido a los carros estacionados en medio de las calles, baches y los tiempos de lluvia, resulta muy difícil llegar a la unidad. Hay mucha probabilidad de que ocurran percances.<br><strong>bernabé_s4nt:</strong> Tendría que haber más transporte, tanto en Lerma como a comunidades cercanas para facilitar la movilidad a otras zonas.<br><strong>XóchitlCastillo:</strong> Hace mucha falta el transporte en las calles.<br><strong>Don_Toroniil:</strong> El trayecto caminando es largo y cansado, sobre todo cuando hace sol. "
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +426,7 @@
       "type": "Feature",
       "properties": {
         "title": "Entrada Oeste - Av. Miguel Hidalgo, Paseo Tollocan y De las Partidas.",
-        "description": "<strong>MollyDC:</strong> Bajo del transporte en la primeria y camino hacia el OXXO. Según el horario y cupo en la combi la utilizo o no. Generalmente me voy caminando del OXXO a la unicad. Si bien no está lejos a veces el camino se siente inseguro, más como mujer y en especial muy temprano o tarde, por lo que sería ideal que haya más transporte por la zona.<br><strong>Panda.wgtz!:</strong> Mi experiencia de transporte en particular es agradable. Pero estaría muy bien que haya un transporte que te lleve desde la UAM hasta Toluca. <strong> <br>Héctor Alejandro Iturbe Lara:</strong> Para llegar, tomo dos camiones. Vengo desde CU en Toluca. Primero, uno que llegue a Crisa y desde ahí, otro hacia Lerma. Es una ruta bastante larga, que me toma alrededor de una hora sin tráfico. Cuando hay tráfico, puedo tardar dos horas o más. Siempre camino o voy en patineta porque la combi hace base y tarda mucho en llegar y en irse. Los camiones dejan de pasar muy temprano. <br><strong>Camp:</strong> El tiempo que toma el transporte se vuelve agotador. Me hago de 45 min. a 1 hora por el tráfico y que hacen base los camiones.<strong> Meme:</strong> Tomo un camión cerca de mi casa, pero este pasa por zonas de riesgo y cada 30-45 minutos. Cuando voy a la UAM en auto, debo dar muchas vueltas y a veces algunas rutas están cerradas. <br> <strong>Chucho:</strong> El transporte actual cumple, pero sí llega a ser muy lento a veces. Me gustaría que haya más transporte y uan guía de referencia para saber qué camiones tomar para moverme en Lerma."
+        "description": "<strong>MollyDC:</strong> Bajo del transporte en la primeria y camino hacia el OXXO. Según el horario y cupo en la combi la utilizo o no. Generalmente me voy caminando del OXXO a la unicad. Si bien no está lejos a veces el camino se siente inseguro, más como mujer y en especial muy temprano o tarde, por lo que sería ideal que haya más transporte por la zona.<br><strong>Panda.wgtz!:</strong> Mi experiencia de transporte en particular es agradable. Pero estaría muy bien que haya un transporte que te lleve desde la UAM hasta Toluca. <strong> <br>Héctor Alejandro Iturbe Lara:</strong> Para llegar, tomo dos camiones. Vengo desde CU en Toluca. Primero, uno que llegue a Crisa y desde ahí, otro hacia Lerma. Es una ruta bastante larga, que me toma alrededor de una hora sin tráfico. Cuando hay tráfico, puedo tardar dos horas o más. Siempre camino o voy en patineta porque la combi hace base y tarda mucho en llegar y en irse. Los camiones dejan de pasar muy temprano. <br><strong>Camp:</strong> El tiempo que toma el transporte se vuelve agotador. Me hago de 45 min. a 1 hora por el tráfico y que hacen base los camiones.<strong> Meme:</strong> Tomo un camión cerca de mi casa, pero este pasa por zonas de riesgo y cada 30-45 minutos. Cuando voy a la UAM en auto, debo dar muchas vueltas y a veces algunas rutas están cerradas. <br> <strong>Chucho:</strong> El transporte actual cumple, pero sí llega a ser muy lento a veces. Me gustaría que haya más transporte y uan guía de referencia para saber qué camiones tomar para moverme en Lerma. <strong> <br> Sofía:</strong> Cuando entré a la UAM solía viajar en transporte público desde la terminal de Toluca o viajaba con vecinos que también estudian aquí. Tuve la oportunidad de mudarme a Lerma, y el primer lugar al que me mudé estaba un poco más alejado de la unidad. Por esa razón, llegar me tomaba entre 30-35 min. caminando. Posteriormente me mudé a una zona en la que me toma 15-20 minutos llegar. No podía tomar el transporte de la unidad porque me quedaba lejos. <br> <strong>Jesús García:</strong> Mi experiencia en mi trayecto cotidiano es algo cansada cuando me toca caminar hacia la universidad. <br> <strong>Omar Vidal:</strong> Hay un largo tramo que no cuenta con aceras y el tráfico pasa muy cerca de los peatones. Es un detalle delicado que puede provocar accidentes. <br> <strong>LALA28:</strong> El transporte público no satisface las necesidades de la población en la periferia que necesita moverse al centro de Lerma. No hay ni la seguridad necesaria."
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +440,7 @@
       "type": "Feature",
       "properties": {
         "title": "Zona Sur - Estación Lerma del Tren Interurbano.",
-        "description": "<strong>Alex-26:</strong> El camino es largo y pesado. Me gustaría un transporte del tren de la estación de Lerma a la escuela.<br><strong>Az:</strong> Las calles están muy pequeñas y no se puede pasar. Incluso el estacionamiento de los autos de las familias obstruyen el paso a los demás, de quienes van en bici y motocicletas.<br><strong>@many.903:</strong> El trayecto es muy largo, dado a que hago casi 40 minutos caminando. Es muy complicado llegar incluso al OXXO. <strong>Miriam:</strong> Me gustaría que la ruta del Tren Interurbano fuera más accesible, ya son más de 30 minutos caminando. He visto a alumnos y profesores por esta ruta frecuentemente."
+        "description": "<strong>Alex-26:</strong> El camino es largo y pesado. Me gustaría un transporte del tren de la estación de Lerma a la escuela.<br><strong>Az:</strong> Las calles están muy pequeñas y no se puede pasar. Incluso el estacionamiento de los autos de las familias obstruyen el paso a los demás, de quienes van en bici y motocicletas.<br><strong>@many.903:</strong> El trayecto es muy largo, dado a que hago casi 40 minutos caminando. Es muy complicado llegar incluso al OXXO. <strong>Miriam:</strong> Me gustaría que la ruta del Tren Interurbano fuera más accesible, ya son más de 30 minutos caminando. He visto a alumnos y profesores por esta ruta frecuentemente.  <br> <strong>Anónimo:</strong> Utilizo el Tren Interurbano últimamente, pero debo decir que está muy lejos del municipio y de la UAM, por lo que siempre camino una larga distancia. No suelo alcanzar la combi. Estaría bien tener más transporte desde la estación hacia la unidad y viceversa. Me tardo hasta 40 minutos en llegar a la UAM caminando. <br> <strong>César Espinoza:</strong> Mi trayecto diario es uno que aunque parezca corto, me toma al menos 30 minutos caminando. La Av. Revolución no es muy segura y es solitaria. Al ser foráneo, llego normalmente en autobús al tren y el trayecto hacia mi casa es todavía más largo y no existe ningpun transporte que me facilite la movilidad. En este trayecto caminando son aproximadamente 45 minutos. <br> <strong>@sadbooy1201:</strong> Mi experiencia es un poco agotadora, ya que tengo que caminar alrededor de 20 min. hacia mi depa, y de ahí otros 10 min. hacia la universidad porque no hay transporte. <br> <strong>Daniel Durán:</strong> Cuando llego a Lerma camino hacia la Volkswagen y de ahí avanzo derecho hasta llegar a la Epo 23. A partir de ahí, al centro de Lerma. Después camino hacia los portales y llego a la Super Kompras y a la explanada. Sigo caminando hacia la deportiva de Lerma. Y por último, hacia la calle Manuel Villada en el último tramo hasta la UAM."
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +468,7 @@
       "type": "Feature",
       "properties": {
         "title": "Entrada Este - Avenida Miguel Hidalgo y Carretera México-Toluca",
-        "description": "<strong>Ari:</strong> Desde la CDMX tomo un autobús hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM.<br><strong>EFEVS:</strong> Desde la CDMX tomo un taxi colectivo hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM. No hay ninguna ruta de transporte que cubra este camino.<br><strong>Naiki:</strong> Vengo de CDMX en un taxi colectivo hasta las Plazas Outlet. Camino hasta la universidad, no hay transporte para ese tramo y además en las mañanas está muy solo el camino.<br><strong>Jaquelina16:</strong> Llego a la entrada de Lerma y para llegar a la UAM no hay ruta de transporte que cubra el camino.<br><strong>Pollichica28:</strong> Del DIF camino 1.26km. para llegar a la UAM. No hay ruta de transporte en esta ruta.<br><strong>AngelBS:</strong> El camino suele ser muy solitario e inseguro a todas horas del día, sobre todo por la tarde.<br><strong>Mary:</strong> El camino es muy solitario del OXXO a la UAM. Sería viable que hubiera un transporte más de las Plazas Outlet a la UAM o que haya más transporte de la combi del OXXO a la UAM.<br><strong>JorgeM.97:</strong> La experiencia de movilidad es complicada debido a que sólo existe transporte público en las dos calles principales que atraviesan Lerma por la zona más céntrica. A partir de la misma, toca caminar mucho para acceder a la unidad y a cualquier otro lugar. El riesgo es mayor conforme avanza la hora en puntos muy solitarios, orillando a gastar en transporte privado.<br><strong>Xóchitl Siuapili:</strong> La experiencia es complicada ya que la parada más cercana está en las Plazas Outlet, y caminar desde ahí es peligroso. Hay varios carros, casi nadie va a pie.<br><strong>jenn:</strong> Es muy complicado llegar a la unidad. También vivo en la periferia, y el transporte es escaso y caro. A veces tengo que esperar hasta 1 hora por transporte porque somos poquitos los que llegamos hasta Lerma y sólo nos quieren dejar hasta la UTVT. <br> <strong>León de Dios:</strong> La trayectoria en general se hace muy pesada por la falta de transporte. En algunas ocasiones utilizo transporte particular para poder llegar a la UAM y al lugar que rento. Un transporte que se mueva en Lerma convendría mucho. <br><strong>maralvna:</strong> El camino es complicado porque se camina la mayor parte del tramo. Con un transporte habría seguridad y llegaríamos a tiempo a la UAM."
+        "description": "<strong>Ari:</strong> Desde la CDMX tomo un autobús hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM.<br><strong>EFEVS:</strong> Desde la CDMX tomo un taxi colectivo hasta Lerma. Llego al DIF y camino 1.26km. para llegar a la UAM. No hay ninguna ruta de transporte que cubra este camino.<br><strong>Naiki:</strong> Vengo de CDMX en un taxi colectivo hasta las Plazas Outlet. Camino hasta la universidad, no hay transporte para ese tramo y además en las mañanas está muy solo el camino.<br><strong>Jaquelina16:</strong> Llego a la entrada de Lerma y para llegar a la UAM no hay ruta de transporte que cubra el camino.<br><strong>Pollichica28:</strong> Del DIF camino 1.26km. para llegar a la UAM. No hay ruta de transporte en esta ruta.<br><strong>AngelBS:</strong> El camino suele ser muy solitario e inseguro a todas horas del día, sobre todo por la tarde.<br><strong>Mary:</strong> El camino es muy solitario del OXXO a la UAM. Sería viable que hubiera un transporte más de las Plazas Outlet a la UAM o que haya más transporte de la combi del OXXO a la UAM.<br><strong>JorgeM.97:</strong> La experiencia de movilidad es complicada debido a que sólo existe transporte público en las dos calles principales que atraviesan Lerma por la zona más céntrica. A partir de la misma, toca caminar mucho para acceder a la unidad y a cualquier otro lugar. El riesgo es mayor conforme avanza la hora en puntos muy solitarios, orillando a gastar en transporte privado.<br><strong>Xóchitl Siuapili:</strong> La experiencia es complicada ya que la parada más cercana está en las Plazas Outlet, y caminar desde ahí es peligroso. Hay varios carros, casi nadie va a pie.<br><strong>jenn:</strong> Es muy complicado llegar a la unidad. También vivo en la periferia, y el transporte es escaso y caro. A veces tengo que esperar hasta 1 hora por transporte porque somos poquitos los que llegamos hasta Lerma y sólo nos quieren dejar hasta la UTVT. <br> <strong>León de Dios:</strong> La trayectoria en general se hace muy pesada por la falta de transporte. En algunas ocasiones utilizo transporte particular para poder llegar a la UAM y al lugar que rento. Un transporte que se mueva en Lerma convendría mucho. <br><strong>maralvna:</strong> El camino es complicado porque se camina la mayor parte del tramo. Con un transporte habría seguridad y llegaríamos a tiempo a la UAM. <br> <strong>LeilanyD89:</strong> Mi ruta es muy concurrida pero las calles son estrechas, y algunas están en mal estado, con baches y terracería. <br> <strong>Valery Sánchez:</strong> La ruta que frecuento es para realizar compras, para llegar a mi departamento y a la UAM también. Me parece que el trayecto en general es solitario e inseguri, sobre todo por la tarde noche. Creo que sería benéfico una ruta de transporte local que nos ayude a trasladarnos sobre las avenidad principales, además, abarcando la Av. de las Garzas cercana a la UAM debido a la constante circulación del estudiantado, que necesita moverse hacia la unidad y desde la unidad a otros lugares. <strong>@diana.rr:</strong> El tiempo que hago en mi ruta habitual es bastante. Los caminos que están detrás de la UAM están cerrados por los habitantes de la zona. <br> <strong>@Brandon.99.L.a:</strong> Mi ruta implica desplazarme 2 horas diariamente para llegar al plantel. A veces me vengo en taxi y a veces tomo el tren Interurbano. De ambas maneras me resulta cara la movilidad."
       },
       "geometry": {
         "type": "Point",
@@ -129,12 +480,340 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            -99.5025659315771,
+            19.294706810364275
+          ],
+          [
+            -99.51615276150679,
+            19.29478539890131
+          ],
+          [
+            -99.51615834261523,
+            19.291025669998803
+          ],
+          [
+            -99.51553722762154,
+            19.291055605710312
+          ],
+          [
+            -99.51550063436201,
+            19.289961792887425
+          ],
+          [
+            -99.51560112390841,
+            19.288937947425552
+          ],
+          [
+            -99.51575068900655,
+            19.286804610277386
+          ],
+          [
+            -99.51634871704198,
+            19.28683023362305
+          ],
+          [
+            -99.51686675337739,
+            19.286845201863088
+          ],
+          [
+            -99.51845610684751,
+            19.28687643181621
+          ],
+          [
+            -99.518798105288,
+            19.286876023776998
+          ],
+          [
+            -99.51904817182323,
+            19.28681409506713
+          ],
+          [
+            -99.519341551041,
+            19.286702721943016
+          ],
+          [
+            -99.51935674213773,
+            19.28660872484427
+          ],
+          [
+            -99.5193432389409,
+            19.286551370655644
+          ],
+          [
+            -99.51928922615242,
+            19.286489236929356
+          ],
+          [
+            -99.51812398636112,
+            19.28643784822937
+          ],
+          [
+            -99.51761963367767,
+            19.28630737882058
+          ],
+          [
+            -99.51658526422705,
+            19.286038851964392
+          ],
+          [
+            -99.51596533256543,
+            19.28593695946647
+          ],
+          [
+            -99.51511173187576,
+            19.28581441453605
+          ],
+          [
+            -99.51383718027499,
+            19.285698738796583
+          ],
+          [
+            -99.51293253519938,
+            19.28544460338162
+          ],
+          [
+            -99.51186716963414,
+            19.285167708950382
+          ],
+          [
+            -99.5116798746629,
+            19.285123528769958
+          ],
+          [
+            -99.5104893518132,
+            19.284999645780303
+          ],
+          [
+            -99.5086180721706,
+            19.28470148492572
+          ],
+          [
+            -99.50722623815975,
+            19.284495018840246
+          ],
+          [
+            -99.50607768534387,
+            19.28452419714347
+          ],
+          [
+            -99.50593549620596,
+            19.285807442268492
+          ],
+          [
+            -99.5062808308925,
+            19.285828303416807
+          ],
+          [
+            -99.50653499722154,
+            19.285875240991714
+          ],
+          [
+            -99.50642725252875,
+            19.28679527494677
+          ],
+          [
+            -99.50535919541326,
+            19.286586493791816
+          ],
+          [
+            -99.50491993084175,
+            19.2864959103823
+          ],
+          [
+            -99.5047992717809,
+            19.28769172510556
+          ],
+          [
+            -99.50472084339162,
+            19.28840920974764
+          ],
+          [
+            -99.50467861272037,
+            19.288597121872243
+          ],
+          [
+            -99.50458811842488,
+            19.288750867995503
+          ],
+          [
+            -99.50362887889192,
+            19.288728090801484
+          ],
+          [
+            -99.50337549486466,
+            19.2886654535007
+          ],
+          [
+            -99.50257914506383,
+            19.288654064897486
+          ],
+          [
+            -99.50256415533657,
+            19.29470812398627
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "color": "green"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.50254975591574,
+            19.292125361832234
+          ],
+          [
+            -99.50253953389253,
+            19.29130045407635
+          ],
+          [
+            -99.50296924258869,
+            19.29130976361664
+          ],
+          [
+            -99.50327281819965,
+            19.29126354906741
+          ],
+          [
+            -99.50371675672748,
+            19.291248144214762
+          ],
+          [
+            -99.5043663432497,
+            19.29134673524709
+          ],
+          [
+            -99.50473193968963,
+            19.29134673479264
+          ],
+          [
+            -99.50475478946683,
+            19.291183443363494
+          ],
+          [
+            -99.50488209536844,
+            19.29120501016577
+          ],
+          [
+            -99.50553494614438,
+            19.291537754748404
+          ],
+          [
+            -99.50570142309219,
+            19.291543916679117
+          ],
+          [
+            -99.50756347574172,
+            19.2910813069128
+          ],
+          [
+            -99.50686242916633,
+            19.290088777177232
+          ],
+          [
+            -99.50682145891182,
+            19.28977511934295
+          ],
+          [
+            -99.5109275880535,
+            19.289671997977848
+          ],
+          [
+            -99.5109321403038,
+            19.28981808535606
+          ],
+          [
+            -99.5117469931417,
+            19.2898008986124
+          ],
+          [
+            -99.51174107778056,
+            19.289600237082865
+          ],
+          [
+            -99.51362115723337,
+            19.289578753624625
+          ],
+          [
+            -99.51355742572642,
+            19.288023343754844
+          ],
+          [
+            -99.51241456239211,
+            19.288117402293395
+          ],
+          [
+            -99.51168620231405,
+            19.288125995753305
+          ],
+          [
+            -99.51090940455738,
+            19.288148318019736
+          ],
+          [
+            -99.51013096972373,
+            19.288109647449772
+          ],
+          [
+            -99.50897014516181,
+            19.28796355945039
+          ],
+          [
+            -99.50632692617106,
+            19.287763958959957
+          ],
+          [
+            -99.50481557900859,
+            19.287703804594898
+          ],
+          [
+            -99.50471542963152,
+            19.288533073825263
+          ],
+          [
+            -99.50460560402313,
+            19.288744422049916
+          ],
+          [
+            -99.50377767484656,
+            19.288727849294844
+          ],
+          [
+            -99.50341804705782,
+            19.28868917886176
+          ],
+          [
+            -99.5026802732876,
+            19.288671151718233
+          ],
+          [
+            -99.50256191477476,
+            19.288757086010605
+          ],
+          [
+            -99.50254276655781,
+            19.291264222686024
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "marker-color": "#be1eb8",
         "marker-size": "small",
         "marker-symbol": "triangle",
         "title": "UAM Lerma",
-        "description": "Ubicación de la Unidad Lerma."
+        "description": "<strong>Ubicación de la Unidad Lerma de la Universidad Autónoma Metropolitana.</strong>"
       },
       "geometry": {
         "coordinates": [
