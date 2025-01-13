@@ -44,6 +44,20 @@ main {
     height: calc(100vh - 5rem); /* Altura restante después de header y footer (8rem a 5rem) */
 }
 
+.stat { 
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-shadow: 0.2rem 0.125rem 0 purple;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad */
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 1rem;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+}
+
 .title, nav {
     position: relative;
     font-family: "Montserrat", sans-serif;

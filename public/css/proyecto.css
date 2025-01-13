@@ -30,37 +30,31 @@ section {
 }
 
 /* Ajuste de imágenes */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 1rem; /* Espacio entre las imágenes */
+}
+
+.image-container img {
+    width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
     border-radius: 10px; /* Bordes redondeados */
 }
 
-/* Impresiones y conclusiones */
-.imagenes-proyecto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.imagenes-proyecto img {
-    flex: 1 1 calc(33.333% - 2rem); /* Ajuste para 3 imágenes por fila */
-    max-width: calc(33.333% - 2rem);
-}
-
 @media (max-width: 768px) {
-    .imagenes-proyecto img {
-        flex: 1 1 calc(50% - 1rem); /* Dos imágenes por fila en pantallas pequeñas */
-        max-width: calc(50% - 1rem);
+    .image-container {
+        grid-template-columns: repeat(2, 1fr); /* Dos imágenes por fila en pantallas pequeñas */
     }
 }
 
 @media (max-width: 480px) {
-    .imagenes-proyecto img {
-        flex: 1 1 100%; /* Una imagen por fila en pantallas muy pequeñas */
-        max-width: 100%;
+    .image-container {
+        grid-template-columns: 1fr; /* Una imagen por fila en pantallas muy pequeñas */
     }
+}
+
+/* Impresiones y conclusiones */
+.profile p {
+    align-content: justify;
+    text-justify: inter-word;
 }
