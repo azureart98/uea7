@@ -174,12 +174,11 @@ h2 p {
 header {
     background-color: purple;
     color: white;
-    padding: 0.2rem 0;
+    padding: 0.2rem;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     position: sticky;
-    top: 0;
     z-index: 10;
     width: 100%;
 }
