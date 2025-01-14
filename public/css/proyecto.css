@@ -99,6 +99,27 @@ section {
     }
 }
 
+/* New Media Queries for Responsiveness */
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 1.5rem; /* Reducir tamaño de fuente del encabezado */
+    }
+
+    p, h2 {
+        font-size: 0.9rem; /* Reducir tamaño de fuente de párrafos y encabezados */
+    }
+
+    #btn-regreso {
+        width: 2rem; /* Ajustar tamaño del botón */
+        height: 2rem; /* Ajustar tamaño del botón */
+    }
+
+    #btn-regreso img {
+        width: 1.2rem; /* Ajustar tamaño del icono */
+        height: 1.2rem; /* Ajustar tamaño del icono */
+    }
+}
+
 /* Impresiones y conclusiones */
 .profile p {
     align-content: justify;

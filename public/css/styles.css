@@ -22,7 +22,7 @@ body::before {
 header {
     background-color: purple;
     color: white;
-    padding: 0.01rem 0; /* 10px a rem */
+    padding: 0.625rem 0; /* 10px a rem */
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 1.75rem;
@@ -46,7 +46,7 @@ main {
 
 .stat { 
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     text-shadow: 0.2rem 0.125rem 0 purple;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad */
@@ -65,7 +65,7 @@ main {
     font-weight: bold;
     color: white;
     text-shadow: 0.5rem 0.125rem 0 purple;
-    margin: 1.25rem 0; /* 20px a rem */
+    margin: 0 0; /* 20px a rem */
     z-index: 1;
     background: transparent;
 }
@@ -73,7 +73,7 @@ main {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 1.25rem 0; /* 20px a rem */
+    margin: 1rem 0; /* 20px a rem */
 }
 
 nav ul li {
@@ -159,6 +159,42 @@ video {
 
 @media (max-width: 768px) {
     .title, nav {
-        font-size: 2.5rem; /* Reducir tamaño de fuente en pantallas pequeñas */
+        font-size: 2.5rem; /* Reduce font size on small screens */
+    }
+
+    nav ul li a {
+        font-size: 1.2rem; /* Adjust font size for links */
+    }
+
+    nav ul li button {
+        font-size: 1rem; /* Adjust font size for buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    .title, nav {
+        font-size: 2rem; /* Further reduce font size on very small screens */
+    }
+
+    nav ul li a {
+        font-size: 1rem; /* Further adjust font size for links */
+    }
+
+    nav ul li button {
+        font-size: 0.9rem; /* Further adjust font size for buttons */
+    }
+}
+
+@media (max-width: 320px) {
+    .title, nav {
+        font-size: 1.5rem; /* Reduce font size on extra small screens */
+    }
+
+    nav ul li a {
+        font-size: 0.9rem; /* Adjust font size for links */
+    }
+
+    nav ul li button {
+        font-size: 0.8rem; /* Adjust font size for buttons */
     }
 }

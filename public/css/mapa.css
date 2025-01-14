@@ -19,16 +19,27 @@ h1 {
 
 /* Estilo para el mapa */
 #mapa {
-    height: 100vh !important; /* Altura completa de la vista del navegador */
-    width: 90vw; /* Ancho completo del navegador */
-    margin: 0 auto; /* Centrar horizontalmente */
+    height: 85vh; /* Altura dinámica para pantallas grandes */
+    width: calc(100% - 6rem); /* Resta 3rem a cada lado para respetar el margen de h2 p */
+    margin: 0 auto; /* Centrar horizontalmente el mapa */
     border-radius: 0.625rem; /* Bordes redondeados */
-    box-shadow: 0 0.375rem 1rem rgba(0, 0, 0, 0.15); /* Sombra pronunciada */
-    max-width: 800 px; /* Limitar el ancho máximo en pantallas grandes */
-    margin-bottom: 1rem;
-    box-sizing: border-box; /* Contar el padding y border dentro del tamaño total */
+    box-shadow: 0 0.375rem 1rem rgba(0, 0, 0, 0.15); /* Sombra más pronunciada para mayor profundidad */
 }
 
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #mapa {
+        height: 70vh; /* Ajustar altura en pantallas pequeñas */
+        width: 90%; /* Reducir ancho relativo */
+    }
+}
+
+@media (max-width: 480px) {
+    #mapa {
+        height: 60vh; /* Ajustar altura en pantallas muy pequeñas */
+        width: 100%; /* Ocupa todo el ancho */
+    }
+}
 
 /* Contenedor principal del pop-up */
 .leaflet-popup-content-wrapper {
@@ -124,7 +135,7 @@ h1 {
     padding: 0.5rem; /* Ajustar padding */
     font-size: 0.75rem; /* Tamaño de fuente ajustado */
     color: white;
-}       
+}
 
 /* Botón de regreso */
 #btn-regreso {
@@ -152,10 +163,11 @@ h2 p {
     text-align: justify;
     font-family: "Montserrat", sans-serif;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: rgba(63, 59, 59, 0.7);
     padding: 0.5rem; /* Espaciado interno */
     border-radius: 0.625rem; /* Bordes redondeados */
+
 }
 
 /* Icono dentro del botón */
@@ -174,11 +186,12 @@ h2 p {
 header {
     background-color: purple;
     color: white;
-    padding: 0.2rem;
+    padding: 0.2rem 0;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     position: sticky;
+    top: 0;
     z-index: 10;
     width: 100%;
 }
@@ -195,7 +208,7 @@ nav {
     align-items: first baseline;
     padding: 0.5rem 1rem; /* Ajustar espacio interior */
     font-family: "Montserrat", sans-serif;
-    font-size: 0.625rem; /* Ajustar tamaño de fuente */
+    font-size: 1rem; /* Ajustar tamaño de fuente */
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
 }
 
@@ -212,9 +225,9 @@ nav ul {
     list-style: none; /* Quita las viñetas */
     padding: 0; /* Elimina relleno interno */
     margin: 0; /* Elimina margen externo */
-    background-color: rgba(63, 59, 59, 0.7);
-    padding: 0.5rem; /* Espaciado interno */
-    border-radius: 0.625rem; /* Bordes redondeados */
+        background-color: rgba(63, 59, 59, 0.7);
+        padding: 0.5rem; /* Espaciado interno */
+        border-radius: 0.625rem; /* Bordes redondeados */
 }
 
 /* Elementos de la lista */
@@ -245,7 +258,7 @@ nav a:hover {
 
 /* Símbolos o iconos dentro del nav */
 nav img {
-    height: 1.5rem; /* Tamaño adecuado del icono */
+    height: 2rem; /* Tamaño adecuado del icono */
     width: auto; /* Mantener proporción */
     margin-right: 0.5rem; /* Separación de texto si aplica */
 }
@@ -291,5 +304,35 @@ nav img {
 
     header {
         font-size: 1.5rem; /* Ajustar tamaño de fuente del encabezado */
+    }
+}
+
+@media (max-width: 768px) {
+    #mapa {
+        height: 60vh; /* Adjust height of the map on small screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust header size on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #mapa {
+        height: 40vh; /* Further adjust height of the map on very small screens */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Further adjust header size on very small screens */
+    }
+}
+
+@media (max-width: 320px) {
+    #mapa {
+        height: 30vh; /* Adjust height of the map on extra small screens */
+    }
+
+    h1 {
+        font-size: 1.2rem; /* Further adjust header size on extra small screens */
     }
 }

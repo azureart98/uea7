@@ -17,7 +17,7 @@
   #map {
   width: 100%; 
   max-width: 100vw; 
-  height: 100vh; /* Ajuste dinámico para pantallas pequeñas */
+  height: 60vh; /* Ajuste dinámico para pantallas pequeñas */
   margin: 1.25rem auto; /* Centramos y añadimos separación */
   box-sizing: border-box;
   border: 2px solid #ccc; /* Opcional: borde para distinguir el mapa */
@@ -56,6 +56,21 @@
     border-color: #444;
 }
 
+/* Estilo de los controles de mapa (botones y controles) */
+.leaflet-control-zoom {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro y semi-transparente */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    padding: 0.3125rem; /* Ajustar padding */
+}
+
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+    font-size: 1.125rem; /* Aumentar el tamaño de los botones */
+    color: white; /* Color blanco para los botones */
+}
+
+.leaflet-control-zoom-in:hover, .leaflet-control-zoom-out:hover {
+    background-color: #333; /* Color más oscuro al hacer hover */
+}
 
     /* Estilo para el formulario */
   form {
