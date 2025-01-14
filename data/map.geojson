@@ -4,6 +4,20 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Ruta Pantera 3",
+        "description": "Ruta ideal para un camión convencional.\nEsta ruta es larga. Permite a los pasajeros llegar a Lerma desde la estación del Tren Interurbano y también atravesar el municipio desde sus avenidas principales. La Miguel Hidalgo y la Reolín Barejón. Para regresar a la estación del tren, el transporte utilizará la primera para regresar a la Calle Benito Juárez. Y finalmente, regresará directamente al punto de partida desde Av. Solidaridad Las Torres. \n\nEsta ruta permite que la movilidad hacia el tren y desde el mismo no sea tediosa, abriendo al alumnado la posibilidad de moverse por este medio y facilitar la llegada y la salida hacia la Unidad. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.51345205307008,
+          19.278435703401414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Ruta Pantera 2",
         "description": "Esta ruta abarca las cercanías de la UAM Lerma y conecta con la zona residencial del municipio. A diferencia de la Ruta Pantera 1, que hace un recorrido más abierto, la Ruta Pantera 2 recorre la Prolongación Zaragoza Sur y la Av. Independencia, apoyándose mutuamente para el traslado de alumnos en zonas muy alejadas y del centro del municipio. Regresa hacia la Av. De las Partidas y a la Unidad Lerma desde la calle Emiliano Zapata.\n\nRuta ideal para combis al atravesar calles estrechas. \n\n"
       },

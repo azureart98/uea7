@@ -19,12 +19,12 @@ h1 {
 
 /* Estilo para el mapa */
 #mapa {
-    height: 100vh; /* Altura completa de la vista del navegador */
-    width: 100vw; /* Ancho completo del navegador */
+    height: 100vh !important; /* Altura completa de la vista del navegador */
+    width: 90vw; /* Ancho completo del navegador */
     margin: 0 auto; /* Centrar horizontalmente */
     border-radius: 0.625rem; /* Bordes redondeados */
     box-shadow: 0 0.375rem 1rem rgba(0, 0, 0, 0.15); /* Sombra pronunciada */
-    max-width: 1000px; /* Limitar el ancho máximo en pantallas grandes */
+    max-width: 800 px; /* Limitar el ancho máximo en pantallas grandes */
     margin-bottom: 1rem;
     box-sizing: border-box; /* Contar el padding y border dentro del tamaño total */
 }
@@ -152,7 +152,10 @@ h2 p {
     text-align: justify;
     font-family: "Montserrat", sans-serif;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
 }
 
 /* Icono dentro del botón */
@@ -193,7 +196,7 @@ nav {
     align-items: first baseline;
     padding: 0.5rem 1rem; /* Ajustar espacio interior */
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem; /* Ajustar tamaño de fuente */
+    font-size: 0.625rem; /* Ajustar tamaño de fuente */
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
 }
 
@@ -210,6 +213,9 @@ nav ul {
     list-style: none; /* Quita las viñetas */
     padding: 0; /* Elimina relleno interno */
     margin: 0; /* Elimina margen externo */
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
 }
 
 /* Elementos de la lista */
@@ -218,6 +224,9 @@ nav li {
     align-items: left; /* Centra verticalmente los iconos y el texto */
     margin-bottom: 0.5rem; /* Espaciado entre elementos */
     text-align: left; /* Justifica el contenido a la izquierda */
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
 }
 
 /* Elementos del menú */

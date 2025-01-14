@@ -21,12 +21,58 @@ header h1 {
     font-size: 2rem;
 }
 
+h2 {
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
+}
+
+p {
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
+}
+
+#btn-regreso {
+    position: absolute;
+    top: 1.25rem; /* Ajustar posición */
+    left: 1.25rem; /* Ajustar posición */
+    z-index: 1000; /* Asegura que esté encima del mapa */
+    width: 2.5rem; /* Ajustar tamaño */
+    height: 2.5rem; /* Ajustar tamaño */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 50%; /* Forma circular */
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2); /* Sombra suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.125rem solid #ccc; /* Ajustar borde */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Icono dentro del botón */
+#btn-regreso img {
+    width: 1.5rem; /* Ajustar tamaño del icono */
+    height: 1.5rem; /* Ajustar tamaño del icono */    
+}
+
+/* Efecto al pasar el mouse */
+#btn-regreso:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    background-color: #f0f0f0;
+    border-color: #444;
+}   
+
 /* Secciones generales */
 section {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
     line-height: 1.6;
+    background-color: rgba(63, 59, 59, 0.7);
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 0.625rem; /* Bordes redondeados */
 }
 
 /* Ajuste de imágenes */
